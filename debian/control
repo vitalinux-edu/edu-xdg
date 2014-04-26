@@ -1,0 +1,17 @@
+Source: edu-xdg
+Section: gnome
+Priority: extra
+Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/vitalinux-edu/edu-xdg
+
+Package: edu-xdg
+Architecture: all
+Provides: vx-virtual-xdg
+Conflicts: vx-virtual-xdg
+Replaces: vx-virtual-xdg
+Pre-Depends: gnome-menus
+Depends: ${misc:Depends}
+Description: Graphic desktop configuration (X Desktop Group).
+ Menus and visible applications for system users.

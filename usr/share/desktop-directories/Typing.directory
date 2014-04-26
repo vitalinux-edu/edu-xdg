@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Typing
+Name[es]=Mecanografía
+Icon=preferences-desktop-keyboard-shortcuts
+Type=Directory
+X-Ubuntu-Gettext-Domain=gnome-menus-3.0
