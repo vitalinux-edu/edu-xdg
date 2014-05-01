@@ -38,6 +38,8 @@
                 <Filename>ibus.desktop</Filename>
                 <Filename>kde4-nepomukbackup.desktop</Filename>
                 <Filename>kde4-nepomukcontroller.desktop</Filename>
+                <Filename>xterm.desktop</Filename>
+                <Filename>uxterm.desktop</Filename>
         </Exclude>
         <Menu>
             <Name>Administration</Name>
@@ -115,11 +117,14 @@
             <Filename>calibre-gui.desktop</Filename>
             <Filename>calibre-ebook-viewer.desktop</Filename>
             <Filename>exe.desktop</Filename>
-            <Filename>calibre-lrfviewer.desktop</Filename>
             <Filename>Open-Sankore.desktop</Filename>
             <Filename>simple-scan.desktop</Filename>
             <Filename>speedcrunch.desktop</Filename>
         </Include>
+	<Exclude>
+            <Filename>calibre-lrfviewer.desktop</Filename>
+	    <Filename>palimpsest.desktop</Filename>
+	</Exclude>
     </Menu>
     <Menu>
         <Name>Universal Access</Name>
@@ -258,11 +263,13 @@
             <Name>Music</Name>
             <Directory>Music.directory</Directory>
             <Include>
-                <Filename>mscore.desktop</Filename>
                 <Filename>solfege.desktop</Filename>
                 <Filename>kde4-blinken.desktop</Filename>
                 <Filename>tuxguitar.desktop</Filename>
             </Include>
+	    <Exclude>
+                <Filename>mscore.desktop</Filename>
+	    </Exclude>
         </Menu>
     </Menu>
     <Menu>
@@ -275,6 +282,7 @@
         </Include>
         <Exclude>
             <Filename>simple-scan.desktop</Filename>
+            <Filename>calibre-ebook-viewer.desktop</Filename>
             <Filename>calibre-lrfviewer.desktop</Filename>
         </Exclude>
     </Menu>
@@ -320,6 +328,11 @@
             <Filename>gedit.desktop</Filename>
             <Filename>libreoffice-math.desktop</Filename>
         </Include>
+	<Exclude>
+            <Filename>calibre-gui.desktop</Filename>
+            <Filename>calibre-ebook-viewer.desktop</Filename>
+            <Filename>calibre-ebook-edit.desktop</Filename>
+	</Exclude>
     </Menu>
     <Menu>
         <Name>Multimedia</Name>
@@ -328,6 +341,7 @@
             <And>
                 <Category>AudioVideo</Category>
             </And>
+                <Filename>mscore.desktop</Filename>
         </Include>
         <Exclude>
             <Filename>gespeaker.desktop</Filename>

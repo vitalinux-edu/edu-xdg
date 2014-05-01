@@ -1,3 +1,9 @@
+edu-xdg (1.1-1) unstable; urgency=low
+
+  * Modificados algunos elementos = calibre-gui, calibre-ebook-viewer, calibre-lrfviewer, calibre-ebook-edit, mscore, palimpset, xterm, uxterm
+
+ -- José Luis Murillo García <joseluismurillogarcia@gmail.com>  Thu, 1 May 2014 19:52:24 +0200
+
 edu-xdg (1.0-1) unstable; urgency=low
 
   * Closes soporte.vitalinux.org/#13.
